@@ -16,12 +16,8 @@
     "version": "~> 3.5.3"
   },
   {
-    "name": "Crashlytics",
-    "version": "~> 3.13.4"
-  },
-  {
     "name": "FBAudienceNetwork",
-    "version": "5.5.0",
+    "version": "5.6.0",
     "otherPodfileFlags": ", :project_name => \"Facebook\""
   },
   {
@@ -33,10 +29,6 @@
     "name": "FBSDKLoginKit",
     "version": "~> 5.6.0",
     "otherPodfileFlags": ", :project_name => \"Facebook\""
-  },
-  {
-    "name": "Fabric",
-    "version": "~> 1.10.2"
   },
   {
     "name": "GoogleSignIn",

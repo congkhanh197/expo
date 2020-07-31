@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     ss.dependency 'Analytics', '~> 3.7'
     ss.dependency 'AppAuth', '~> 1.2'
     ss.dependency 'CocoaLumberjack', '~> 3.5.3'
-    ss.dependency 'FBAudienceNetwork', '5.5.0'
+    ss.dependency 'FBAudienceNetwork', '5.6.0'
     ss.dependency 'FBSDKCoreKit', '~> 5.6.0'
     ss.dependency 'FBSDKLoginKit', '~> 5.6.0'
     ss.dependency 'GoogleSignIn', '~> 5.0'
