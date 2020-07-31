@@ -3,8 +3,7 @@ import { Command } from '@expo/commander';
 
 import { Directories } from '../expotools';
 import {
-  generateDynamicMacrosAsync,
-  cleanupDynamicMacrosAsync,
+  generateDynamicMacrosAsync
 } from '../dynamic-macros/generateDynamicMacros';
 
 const EXPO_DIR = Directories.getExpoRepositoryRootDir();
@@ -28,16 +27,6 @@ async function generateAction(options): Promise<void> {
   });
 }
 
-async function cleanupAction(options): Promise<void> {
-  const infoPlistPath = options.infoPlistPath || path.join(SUPPORTING_DIR, 'Info.plist');
-
-  await cleanupDynamicMacrosAsync({
-    platform: 'ios',
-    infoPlistPath: infoPlistPath,
-    expoKitPath: EXPO_DIR,
-  });
-}
-
 export default (program: Command) => {
   program
     .command('ios-generate-dynamic-macros')
@@ -55,9 +44,4 @@ export default (program: Command) => {
     )
     .description('Generates dynamic macros for iOS client.')
     .asyncAction(generateAction);
-
-  program
-    .command('ios-cleanup-dynamic-macros')
-    .description('Restores a backup of Info.plist made before generating dynamic macros.')
-    .asyncAction(cleanupAction);
 };

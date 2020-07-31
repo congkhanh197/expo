@@ -86,16 +86,6 @@ async function generateDynamicMacrosAsync(args) {
   }
 }
 
-async function cleanupDynamicMacrosAsync(args) {
-  try {
-    const macrosGenerator = getMacrosGeneratorForPlatform(args.platform);
-    await macrosGenerator.cleanupAsync(args);
-  } catch (error) {
-    console.error(`There was an error cleaning up Expo template files:\n${error.stack}`);
-    process.exit(1);
-  }
-}
-
 async function readExistingSourceAsync(filepath) {
   try {
     return await fs.readFile(filepath, 'utf8');
@@ -157,4 +147,4 @@ async function copyTemplateFilesAsync(platform, args, templateSubstitutions) {
   await Promise.all(promises);
 }
 
-export { generateDynamicMacrosAsync, cleanupDynamicMacrosAsync, getTemplateSubstitutions };
+export { generateDynamicMacrosAsync, getTemplateSubstitutions };
