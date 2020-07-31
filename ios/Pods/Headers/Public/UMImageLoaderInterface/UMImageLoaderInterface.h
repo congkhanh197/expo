@@ -1,1 +1,1 @@
-../../../../../packages/unimodules-image-loader-interface/ios/UMImageLoaderInterface/UMImageLoaderInterface.h
+../../../../../packages/react-native-unimodules/node_modules/unimodules-image-loader-interface/ios/UMImageLoaderInterface/UMImageLoaderInterface.h

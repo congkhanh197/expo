@@ -10,7 +10,9 @@
 // Documentation:
 //   https://cloud.google.com/vision/
 
-#if GTLR_BUILT_AS_FRAMEWORK
+#if SWIFT_PACKAGE || GTLR_USE_MODULAR_IMPORT
+  @import GoogleAPIClientForRESTCore;
+#elif GTLR_BUILT_AS_FRAMEWORK
   #import "GTLR/GTLRQuery.h"
 #else
   #import "GTLRQuery.h"
@@ -899,7 +901,7 @@ NS_ASSUME_NONNULL_BEGIN
 //   +[GTLQueryVision queryForProjectsLocationsProductsCreateWithObject:parent:]
 
 /**
- *  The project in which the Product should be created.
+ *  Required. The project in which the Product should be created.
  *  Format is
  *  `projects/PROJECT_ID/locations/LOC_ID`.
  */
@@ -924,7 +926,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  * Returns INVALID_ARGUMENT if product_category is missing or invalid.
  *
  *  @param object The @c GTLRVision_Product to include in the query.
- *  @param parent The project in which the Product should be created.
+ *  @param parent Required. The project in which the Product should be created.
  *    Format is
  *    `projects/PROJECT_ID/locations/LOC_ID`.
  *
@@ -952,7 +954,7 @@ NS_ASSUME_NONNULL_BEGIN
 //   +[GTLQueryVision queryForProjectsLocationsProductsDeleteWithname:]
 
 /**
- *  Resource name of product to delete.
+ *  Required. Resource name of product to delete.
  *  Format is:
  *  `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID`
  */
@@ -966,7 +968,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  search queries against ProductSets containing the product may still work
  *  until all related caches are refreshed.
  *
- *  @param name Resource name of product to delete.
+ *  @param name Required. Resource name of product to delete.
  *    Format is:
  *    `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID`
  *
@@ -994,7 +996,7 @@ NS_ASSUME_NONNULL_BEGIN
 //   +[GTLQueryVision queryForProjectsLocationsProductSetsAddProductWithObject:name:]
 
 /**
- *  The resource name for the ProductSet to modify.
+ *  Required. The resource name for the ProductSet to modify.
  *  Format is:
  *  `projects/PROJECT_ID/locations/LOC_ID/productSets/PRODUCT_SET_ID`
  */
@@ -1011,7 +1013,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  @param object The @c GTLRVision_AddProductToProductSetRequest to include in
  *    the query.
- *  @param name The resource name for the ProductSet to modify.
+ *  @param name Required. The resource name for the ProductSet to modify.
  *    Format is:
  *    `projects/PROJECT_ID/locations/LOC_ID/productSets/PRODUCT_SET_ID`
  *
@@ -1039,7 +1041,7 @@ NS_ASSUME_NONNULL_BEGIN
 //   +[GTLQueryVision queryForProjectsLocationsProductSetsCreateWithObject:parent:]
 
 /**
- *  The project in which the ProductSet should be created.
+ *  Required. The project in which the ProductSet should be created.
  *  Format is `projects/PROJECT_ID/locations/LOC_ID`.
  */
 @property(nonatomic, copy, nullable) NSString *parent;
@@ -1061,7 +1063,8 @@ NS_ASSUME_NONNULL_BEGIN
  *  4096 characters.
  *
  *  @param object The @c GTLRVision_ProductSet to include in the query.
- *  @param parent The project in which the ProductSet should be created.
+ *  @param parent Required. The project in which the ProductSet should be
+ *    created.
  *    Format is `projects/PROJECT_ID/locations/LOC_ID`.
  *
  *  @return GTLRVisionQuery_ProjectsLocationsProductSetsCreate
@@ -1087,7 +1090,7 @@ NS_ASSUME_NONNULL_BEGIN
 //   +[GTLQueryVision queryForProjectsLocationsProductSetsDeleteWithname:]
 
 /**
- *  Resource name of the ProductSet to delete.
+ *  Required. Resource name of the ProductSet to delete.
  *  Format is:
  *  `projects/PROJECT_ID/locations/LOC_ID/productSets/PRODUCT_SET_ID`
  */
@@ -1100,7 +1103,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  ProductSet are not deleted.
  *  The actual image files are not deleted from Google Cloud Storage.
  *
- *  @param name Resource name of the ProductSet to delete.
+ *  @param name Required. Resource name of the ProductSet to delete.
  *    Format is:
  *    `projects/PROJECT_ID/locations/LOC_ID/productSets/PRODUCT_SET_ID`
  *
@@ -1126,9 +1129,9 @@ NS_ASSUME_NONNULL_BEGIN
 //   +[GTLQueryVision queryForProjectsLocationsProductSetsGetWithname:]
 
 /**
- *  Resource name of the ProductSet to get.
+ *  Required. Resource name of the ProductSet to get.
  *  Format is:
- *  `projects/PROJECT_ID/locations/LOG_ID/productSets/PRODUCT_SET_ID`
+ *  `projects/PROJECT_ID/locations/LOC_ID/productSets/PRODUCT_SET_ID`
  */
 @property(nonatomic, copy, nullable) NSString *name;
 
@@ -1139,9 +1142,9 @@ NS_ASSUME_NONNULL_BEGIN
  *  Possible errors:
  *  * Returns NOT_FOUND if the ProductSet does not exist.
  *
- *  @param name Resource name of the ProductSet to get.
+ *  @param name Required. Resource name of the ProductSet to get.
  *    Format is:
- *    `projects/PROJECT_ID/locations/LOG_ID/productSets/PRODUCT_SET_ID`
+ *    `projects/PROJECT_ID/locations/LOC_ID/productSets/PRODUCT_SET_ID`
  *
  *  @return GTLRVisionQuery_ProjectsLocationsProductSetsGet
  */
@@ -1171,7 +1174,7 @@ NS_ASSUME_NONNULL_BEGIN
 //   +[GTLQueryVision queryForProjectsLocationsProductSetsImportWithObject:parent:]
 
 /**
- *  The project in which the ProductSets should be imported.
+ *  Required. The project in which the ProductSets should be imported.
  *  Format is `projects/PROJECT_ID/locations/LOC_ID`.
  */
 @property(nonatomic, copy, nullable) NSString *parent;
@@ -1191,7 +1194,8 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  @param object The @c GTLRVision_ImportProductSetsRequest to include in the
  *    query.
- *  @param parent The project in which the ProductSets should be imported.
+ *  @param parent Required. The project in which the ProductSets should be
+ *    imported.
  *    Format is `projects/PROJECT_ID/locations/LOC_ID`.
  *
  *  @return GTLRVisionQuery_ProjectsLocationsProductSetsImport
@@ -1224,7 +1228,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, copy, nullable) NSString *pageToken;
 
 /**
- *  The project from which ProductSets should be listed.
+ *  Required. The project from which ProductSets should be listed.
  *  Format is `projects/PROJECT_ID/locations/LOC_ID`.
  */
 @property(nonatomic, copy, nullable) NSString *parent;
@@ -1237,7 +1241,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  * Returns INVALID_ARGUMENT if page_size is greater than 100, or less
  *  than 1.
  *
- *  @param parent The project from which ProductSets should be listed.
+ *  @param parent Required. The project from which ProductSets should be listed.
  *    Format is `projects/PROJECT_ID/locations/LOC_ID`.
  *
  *  @return GTLRVisionQuery_ProjectsLocationsProductSetsList
@@ -1327,7 +1331,7 @@ NS_ASSUME_NONNULL_BEGIN
 //   +[GTLQueryVision queryForProjectsLocationsProductSetsProductsListWithname:]
 
 /**
- *  The ProductSet resource for which to retrieve Products.
+ *  Required. The ProductSet resource for which to retrieve Products.
  *  Format is:
  *  `projects/PROJECT_ID/locations/LOC_ID/productSets/PRODUCT_SET_ID`
  */
@@ -1348,7 +1352,8 @@ NS_ASSUME_NONNULL_BEGIN
  *  Possible errors:
  *  * Returns INVALID_ARGUMENT if page_size is greater than 100 or less than 1.
  *
- *  @param name The ProductSet resource for which to retrieve Products.
+ *  @param name Required. The ProductSet resource for which to retrieve
+ *    Products.
  *    Format is:
  *    `projects/PROJECT_ID/locations/LOC_ID/productSets/PRODUCT_SET_ID`
  *
@@ -1376,7 +1381,7 @@ NS_ASSUME_NONNULL_BEGIN
 //   +[GTLQueryVision queryForProjectsLocationsProductSetsRemoveProductWithObject:name:]
 
 /**
- *  The resource name for the ProductSet to modify.
+ *  Required. The resource name for the ProductSet to modify.
  *  Format is:
  *  `projects/PROJECT_ID/locations/LOC_ID/productSets/PRODUCT_SET_ID`
  */
@@ -1389,7 +1394,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  @param object The @c GTLRVision_RemoveProductFromProductSetRequest to
  *    include in the query.
- *  @param name The resource name for the ProductSet to modify.
+ *  @param name Required. The resource name for the ProductSet to modify.
  *    Format is:
  *    `projects/PROJECT_ID/locations/LOC_ID/productSets/PRODUCT_SET_ID`
  *
@@ -1416,7 +1421,7 @@ NS_ASSUME_NONNULL_BEGIN
 //   +[GTLQueryVision queryForProjectsLocationsProductsGetWithname:]
 
 /**
- *  Resource name of the Product to get.
+ *  Required. Resource name of the Product to get.
  *  Format is:
  *  `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID`
  */
@@ -1429,7 +1434,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  Possible errors:
  *  * Returns NOT_FOUND if the Product does not exist.
  *
- *  @param name Resource name of the Product to get.
+ *  @param name Required. Resource name of the Product to get.
  *    Format is:
  *    `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID`
  *
@@ -1461,7 +1466,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, copy, nullable) NSString *pageToken;
 
 /**
- *  The project OR ProductSet from which Products should be listed.
+ *  Required. The project OR ProductSet from which Products should be listed.
  *  Format:
  *  `projects/PROJECT_ID/locations/LOC_ID`
  */
@@ -1474,8 +1479,8 @@ NS_ASSUME_NONNULL_BEGIN
  *  Possible errors:
  *  * Returns INVALID_ARGUMENT if page_size is greater than 100 or less than 1.
  *
- *  @param parent The project OR ProductSet from which Products should be
- *    listed.
+ *  @param parent Required. The project OR ProductSet from which Products should
+ *    be listed.
  *    Format:
  *    `projects/PROJECT_ID/locations/LOC_ID`
  *
@@ -1593,7 +1598,7 @@ NS_ASSUME_NONNULL_BEGIN
 //   +[GTLQueryVision queryForProjectsLocationsProductsPurgeWithObject:parent:]
 
 /**
- *  The project and location in which the Products should be deleted.
+ *  Required. The project and location in which the Products should be deleted.
  *  Format is `projects/PROJECT_ID/locations/LOC_ID`.
  */
 @property(nonatomic, copy, nullable) NSString *parent;
@@ -1623,8 +1628,8 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  @param object The @c GTLRVision_PurgeProductsRequest to include in the
  *    query.
- *  @param parent The project and location in which the Products should be
- *    deleted.
+ *  @param parent Required. The project and location in which the Products
+ *    should be deleted.
  *    Format is `projects/PROJECT_ID/locations/LOC_ID`.
  *
  *  @return GTLRVisionQuery_ProjectsLocationsProductsPurge
@@ -1662,7 +1667,8 @@ NS_ASSUME_NONNULL_BEGIN
 //   +[GTLQueryVision queryForProjectsLocationsProductsReferenceImagesCreateWithObject:parent:]
 
 /**
- *  Resource name of the product in which to create the reference image.
+ *  Required. Resource name of the product in which to create the reference
+ *  image.
  *  Format is
  *  `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID`.
  */
@@ -1696,8 +1702,8 @@ NS_ASSUME_NONNULL_BEGIN
  *  * Returns INVALID_ARGUMENT if bounding_poly contains more than 10 polygons.
  *
  *  @param object The @c GTLRVision_ReferenceImage to include in the query.
- *  @param parent Resource name of the product in which to create the reference
- *    image.
+ *  @param parent Required. Resource name of the product in which to create the
+ *    reference image.
  *    Format is
  *    `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID`.
  *
@@ -1726,7 +1732,7 @@ NS_ASSUME_NONNULL_BEGIN
 //   +[GTLQueryVision queryForProjectsLocationsProductsReferenceImagesDeleteWithname:]
 
 /**
- *  The resource name of the reference image to delete.
+ *  Required. The resource name of the reference image to delete.
  *  Format is:
  *  `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID/referenceImages/IMAGE_ID`
  */
@@ -1741,7 +1747,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  caches are refreshed.
  *  The actual image files are not deleted from Google Cloud Storage.
  *
- *  @param name The resource name of the reference image to delete.
+ *  @param name Required. The resource name of the reference image to delete.
  *    Format is:
  *    `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID/referenceImages/IMAGE_ID`
  *
@@ -1767,7 +1773,7 @@ NS_ASSUME_NONNULL_BEGIN
 //   +[GTLQueryVision queryForProjectsLocationsProductsReferenceImagesGetWithname:]
 
 /**
- *  The resource name of the ReferenceImage to get.
+ *  Required. The resource name of the ReferenceImage to get.
  *  Format is:
  *  `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID/referenceImages/IMAGE_ID`.
  */
@@ -1780,7 +1786,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  Possible errors:
  *  * Returns NOT_FOUND if the specified image does not exist.
  *
- *  @param name The resource name of the ReferenceImage to get.
+ *  @param name Required. The resource name of the ReferenceImage to get.
  *    Format is:
  *    `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID/referenceImages/IMAGE_ID`.
  *
@@ -1818,7 +1824,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, copy, nullable) NSString *pageToken;
 
 /**
- *  Resource name of the product containing the reference images.
+ *  Required. Resource name of the product containing the reference images.
  *  Format is
  *  `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID`.
  */
@@ -1833,7 +1839,8 @@ NS_ASSUME_NONNULL_BEGIN
  *  * Returns INVALID_ARGUMENT if the page_size is greater than 100, or less
  *  than 1.
  *
- *  @param parent Resource name of the product containing the reference images.
+ *  @param parent Required. Resource name of the product containing the
+ *    reference images.
  *    Format is
  *    `projects/PROJECT_ID/locations/LOC_ID/products/PRODUCT_ID`.
  *

@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16891CF101C5667DB07E038A9145F52A /* EXCameraUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 556CBACA1F37D65200C8A0DA819A2800 /* EXCameraUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5EB71D9F5FDB9134477D2835A380FCC1 /* EXCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3BFBB0162D76511F51C6C2EE6937D9 /* EXCamera.m */; };
-		62B1289E3CB463D11110D0C32CDDAD4A /* EXCameraManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 417E6BE922FC0976FB0C0752D5E26F3F /* EXCameraManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B1209AFFB1353482EC0DAFDF2C3FFC13 /* EXCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = C7084156E22EDF50002D05618208FE1E /* EXCamera.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B7B08B424B1463DCF0B25B3FA6E6E6D5 /* EXCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD339CD1C4EF4D29AF875BE3D4C5034 /* EXCamera-dummy.m */; };
-		D70924CE48A7998870591A9B58A84180 /* EXCameraUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 43005EE89CEA6D558F5ED6D01D678734 /* EXCameraUtils.m */; };
-		EA66931315BAEF7CBEB86A22002F3CBF /* EXCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1F305E39589DD30891CC5C7522083E /* EXCameraManager.m */; };
+		16891CF101C5667DB07E038A9145F52A /* EXCameraUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C36A765920FAB5CB2C4FFE460DD18BEF /* EXCameraUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5EB71D9F5FDB9134477D2835A380FCC1 /* EXCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B9A49062386B4DA5DAF3CF28B78E99 /* EXCamera.m */; };
+		62B1289E3CB463D11110D0C32CDDAD4A /* EXCameraManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D69C1F28091D123E9ADB26795D644B /* EXCameraManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1209AFFB1353482EC0DAFDF2C3FFC13 /* EXCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 12ADF37597E420D7C651F2D4AA29DDC1 /* EXCamera.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7B08B424B1463DCF0B25B3FA6E6E6D5 /* EXCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1A3C6BF5943D5C1F07B2A9600A03F2 /* EXCamera-dummy.m */; };
+		D70924CE48A7998870591A9B58A84180 /* EXCameraUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BF2675C39462C2465484E1F8EB4D05 /* EXCameraUtils.m */; };
+		EA66931315BAEF7CBEB86A22002F3CBF /* EXCameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B83D381895E70A0405905ECD4C0F83FB /* EXCameraManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,22 +63,23 @@
 
 /* Begin PBXFileReference section */
 		0AD405795122146FB9C697231E3D1521 /* UMImageLoaderInterface */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMImageLoaderInterface; path = UMImageLoaderInterface.xcodeproj; sourceTree = "<group>"; };
+		12ADF37597E420D7C651F2D4AA29DDC1 /* EXCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXCamera.h; path = EXCamera/EXCamera.h; sourceTree = "<group>"; };
 		236A85D7FD3A40D579B852A84F2CC5D6 /* UMPermissionsInterface */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMPermissionsInterface; path = UMPermissionsInterface.xcodeproj; sourceTree = "<group>"; };
 		2D94D631128DA7939504D25BFE3EA32D /* UMBarCodeScannerInterface */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMBarCodeScannerInterface; path = UMBarCodeScannerInterface.xcodeproj; sourceTree = "<group>"; };
-		417E6BE922FC0976FB0C0752D5E26F3F /* EXCameraManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXCameraManager.h; path = EXCamera/EXCameraManager.h; sourceTree = "<group>"; };
 		42474EF91FF85C22003C5B01555CBB9C /* UMFileSystemInterface */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMFileSystemInterface; path = UMFileSystemInterface.xcodeproj; sourceTree = "<group>"; };
-		43005EE89CEA6D558F5ED6D01D678734 /* EXCameraUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EXCameraUtils.m; sourceTree = "<group>"; };
-		556CBACA1F37D65200C8A0DA819A2800 /* EXCameraUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXCameraUtils.h; sourceTree = "<group>"; };
+		5B2027CD99738877ECBBCFF326C0B973 /* EXCamera.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EXCamera.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5CD77AD3F2D8B2B0A163E9DA43FBFDA9 /* libEXCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEXCamera.a; path = libEXCamera.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		623F3920771A471188ADA043E387E83E /* EXCamera.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EXCamera.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		79A9EE0F0B9355C473BCFCB83214CC9A /* EXCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EXCamera.xcconfig; sourceTree = "<group>"; };
 		86B3D2D8D6194E9C4FCD5CC693DA66C4 /* UMFaceDetectorInterface */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMFaceDetectorInterface; path = UMFaceDetectorInterface.xcodeproj; sourceTree = "<group>"; };
-		90501BF7D5038866E9D59472B54F9DB0 /* EXCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXCamera-prefix.pch"; sourceTree = "<group>"; };
-		C7084156E22EDF50002D05618208FE1E /* EXCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXCamera.h; path = EXCamera/EXCamera.h; sourceTree = "<group>"; };
-		CB1F305E39589DD30891CC5C7522083E /* EXCameraManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXCameraManager.m; path = EXCamera/EXCameraManager.m; sourceTree = "<group>"; };
+		B1BF2675C39462C2465484E1F8EB4D05 /* EXCameraUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EXCameraUtils.m; sourceTree = "<group>"; };
+		B83D381895E70A0405905ECD4C0F83FB /* EXCameraManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXCameraManager.m; path = EXCamera/EXCameraManager.m; sourceTree = "<group>"; };
+		BBD9F6A99CCCA33C3A4E42040598601A /* EXCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EXCamera.debug.xcconfig; sourceTree = "<group>"; };
+		BC1A3C6BF5943D5C1F07B2A9600A03F2 /* EXCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXCamera-dummy.m"; sourceTree = "<group>"; };
+		C36A765920FAB5CB2C4FFE460DD18BEF /* EXCameraUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXCameraUtils.h; sourceTree = "<group>"; };
+		C3D69C1F28091D123E9ADB26795D644B /* EXCameraManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXCameraManager.h; path = EXCamera/EXCameraManager.h; sourceTree = "<group>"; };
 		D13F5A7168964D3EA86E532274286F4B /* UMCore */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCore; path = UMCore.xcodeproj; sourceTree = "<group>"; };
-		DA3BFBB0162D76511F51C6C2EE6937D9 /* EXCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXCamera.m; path = EXCamera/EXCamera.m; sourceTree = "<group>"; };
-		FDD339CD1C4EF4D29AF875BE3D4C5034 /* EXCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXCamera-dummy.m"; sourceTree = "<group>"; };
+		D194665EFEAA6C642EB53BF6163B97F9 /* EXCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXCamera-prefix.pch"; sourceTree = "<group>"; };
+		D6B9A49062386B4DA5DAF3CF28B78E99 /* EXCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXCamera.m; path = EXCamera/EXCamera.m; sourceTree = "<group>"; };
+		F5FB97C725AFC0ED1361A6745FE2C4B8 /* EXCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EXCamera.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +93,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0423A3FE3A090800ABC803811D968D63 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C36A765920FAB5CB2C4FFE460DD18BEF /* EXCameraUtils.h */,
+				B1BF2675C39462C2465484E1F8EB4D05 /* EXCameraUtils.m */,
+			);
+			name = Utilities;
+			path = EXCamera/Utilities;
+			sourceTree = "<group>";
+		};
+		043F125EA86A83B3F37140A71F919350 /* EXCamera */ = {
+			isa = PBXGroup;
+			children = (
+				12ADF37597E420D7C651F2D4AA29DDC1 /* EXCamera.h */,
+				D6B9A49062386B4DA5DAF3CF28B78E99 /* EXCamera.m */,
+				C3D69C1F28091D123E9ADB26795D644B /* EXCameraManager.h */,
+				B83D381895E70A0405905ECD4C0F83FB /* EXCameraManager.m */,
+				A08F1C9A9B3F3D9EDB4E9E31942993E6 /* Pod */,
+				7C8BDC53C7D749F43273E401FE63039A /* Support Files */,
+				0423A3FE3A090800ABC803811D968D63 /* Utilities */,
+			);
+			name = EXCamera;
+			path = "../../packages/expo-camera/ios";
+			sourceTree = "<group>";
+		};
 		0E37E809EEE1BD81B9E9D96AA2C085A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,56 +133,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		202CABF8B38EA2CC1B04040D588CDA24 /* EXCamera */ = {
-			isa = PBXGroup;
-			children = (
-				C7084156E22EDF50002D05618208FE1E /* EXCamera.h */,
-				DA3BFBB0162D76511F51C6C2EE6937D9 /* EXCamera.m */,
-				417E6BE922FC0976FB0C0752D5E26F3F /* EXCameraManager.h */,
-				CB1F305E39589DD30891CC5C7522083E /* EXCameraManager.m */,
-				B192D01A658913596C6237FAC3DEC9BC /* Pod */,
-				982D73168702F07F146EECEA4690A738 /* Support Files */,
-				21BB279FF303D1967C1142E8AA9C0CE8 /* Utilities */,
-			);
-			name = EXCamera;
-			path = "../../packages/expo-camera/ios";
-			sourceTree = "<group>";
-		};
-		21BB279FF303D1967C1142E8AA9C0CE8 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				556CBACA1F37D65200C8A0DA819A2800 /* EXCameraUtils.h */,
-				43005EE89CEA6D558F5ED6D01D678734 /* EXCameraUtils.m */,
-			);
-			name = Utilities;
-			path = EXCamera/Utilities;
-			sourceTree = "<group>";
-		};
 		35210F96004084B41E7A6BDF6FA612D1 = {
 			isa = PBXGroup;
 			children = (
 				ED95B5BB26E580B92CE71F66D24795C3 /* Dependencies */,
-				202CABF8B38EA2CC1B04040D588CDA24 /* EXCamera */,
+				043F125EA86A83B3F37140A71F919350 /* EXCamera */,
 				14754CEC8C5B096A0664A0449AE5A441 /* Frameworks */,
 				0E37E809EEE1BD81B9E9D96AA2C085A6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		982D73168702F07F146EECEA4690A738 /* Support Files */ = {
+		7C8BDC53C7D749F43273E401FE63039A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				79A9EE0F0B9355C473BCFCB83214CC9A /* EXCamera.xcconfig */,
-				FDD339CD1C4EF4D29AF875BE3D4C5034 /* EXCamera-dummy.m */,
-				90501BF7D5038866E9D59472B54F9DB0 /* EXCamera-prefix.pch */,
+				BC1A3C6BF5943D5C1F07B2A9600A03F2 /* EXCamera-dummy.m */,
+				D194665EFEAA6C642EB53BF6163B97F9 /* EXCamera-prefix.pch */,
+				BBD9F6A99CCCA33C3A4E42040598601A /* EXCamera.debug.xcconfig */,
+				F5FB97C725AFC0ED1361A6745FE2C4B8 /* EXCamera.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../../../ios/Pods/Target Support Files/EXCamera";
 			sourceTree = "<group>";
 		};
-		B192D01A658913596C6237FAC3DEC9BC /* Pod */ = {
+		A08F1C9A9B3F3D9EDB4E9E31942993E6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				623F3920771A471188ADA043E387E83E /* EXCamera.podspec */,
+				5B2027CD99738877ECBBCFF326C0B973 /* EXCamera.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -228,6 +230,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 35210F96004084B41E7A6BDF6FA612D1;
 			productRefGroup = 0E37E809EEE1BD81B9E9D96AA2C085A6 /* Products */;
@@ -307,6 +310,31 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3875B8691B1D3D201696E78E6B6C44EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5FB97C725AFC0ED1361A6745FE2C4B8 /* EXCamera.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EXCamera/EXCamera-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EXCamera;
+				PRODUCT_NAME = EXCamera;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		6A1D7425BB8AFC117B5CFCEA5EC6687B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -431,34 +459,9 @@
 			};
 			name = Debug;
 		};
-		AE2D9B1C673930E51FB991BDDD955A24 /* Release */ = {
+		B3853F658B00CAA7CC6E6B6AE83865FD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79A9EE0F0B9355C473BCFCB83214CC9A /* EXCamera.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/EXCamera/EXCamera-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = EXCamera;
-				PRODUCT_NAME = EXCamera;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C3BDA24D362F0AF085A5A111386FE2D5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79A9EE0F0B9355C473BCFCB83214CC9A /* EXCamera.xcconfig */;
+			baseConfigurationReference = BBD9F6A99CCCA33C3A4E42040598601A /* EXCamera.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -486,8 +489,8 @@
 		90565B4899AE0DFBDFA0A8FF8AC755D8 /* Build configuration list for PBXNativeTarget "EXCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3BDA24D362F0AF085A5A111386FE2D5 /* Debug */,
-				AE2D9B1C673930E51FB991BDDD955A24 /* Release */,
+				B3853F658B00CAA7CC6E6B6AE83865FD /* Debug */,
+				3875B8691B1D3D201696E78E6B6C44EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

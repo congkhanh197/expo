@@ -1,1 +1,1 @@
-../../../../../packages/unimodules-permissions-interface/ios/UMPermissionsInterface/UMUserNotificationCenterProxyInterface.h
+../../../../../packages/react-native-unimodules/node_modules/unimodules-permissions-interface/ios/UMPermissionsInterface/UMUserNotificationCenterProxyInterface.h

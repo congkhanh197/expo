@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		596B7B09BCE5B7E7B7D606D4F9D84D69 /* EXMediaLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = C595DED1FFD6D9446295E9BE6B465784 /* EXMediaLibrary.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EF2169B9304D24D8722F6D1A55786DFA /* EXMediaLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CB288D0FAC9C0DB2F80C123F635B1B /* EXMediaLibrary-dummy.m */; };
-		F5A82E5F4421D17F0E758E2B4EE2B21A /* EXMediaLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4F504A3CE8FD28370DA3E23142F497 /* EXMediaLibrary.m */; };
+		596B7B09BCE5B7E7B7D606D4F9D84D69 /* EXMediaLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 36BC9A58310AA50739BED4AA6DC5C175 /* EXMediaLibrary.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF2169B9304D24D8722F6D1A55786DFA /* EXMediaLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 264597E632B440D6385401B635786FF8 /* EXMediaLibrary-dummy.m */; };
+		F5A82E5F4421D17F0E758E2B4EE2B21A /* EXMediaLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB9449BD2D8B06E21017F5D89BD5F5A /* EXMediaLibrary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,14 +31,15 @@
 
 /* Begin PBXFileReference section */
 		1DE3E8ABF750AF6E1F028D7B4A4379CD /* UMCore */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCore; path = UMCore.xcodeproj; sourceTree = "<group>"; };
-		40DF5D75CE210CF8276822E56FA16A3A /* EXMediaLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXMediaLibrary-prefix.pch"; sourceTree = "<group>"; };
-		61BFB1E7DFCA55274E51C5F282CC4B4C /* EXMediaLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EXMediaLibrary.xcconfig; sourceTree = "<group>"; };
+		264597E632B440D6385401B635786FF8 /* EXMediaLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXMediaLibrary-dummy.m"; sourceTree = "<group>"; };
+		36BC9A58310AA50739BED4AA6DC5C175 /* EXMediaLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXMediaLibrary.h; path = EXMediaLibrary/EXMediaLibrary.h; sourceTree = "<group>"; };
 		7134E14832E2CD4F261377D667A6BD78 /* UMPermissionsInterface */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMPermissionsInterface; path = UMPermissionsInterface.xcodeproj; sourceTree = "<group>"; };
 		7332765204ED323C9C39E11A973382FF /* libEXMediaLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEXMediaLibrary.a; path = libEXMediaLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE4F504A3CE8FD28370DA3E23142F497 /* EXMediaLibrary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXMediaLibrary.m; path = EXMediaLibrary/EXMediaLibrary.m; sourceTree = "<group>"; };
-		C595DED1FFD6D9446295E9BE6B465784 /* EXMediaLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXMediaLibrary.h; path = EXMediaLibrary/EXMediaLibrary.h; sourceTree = "<group>"; };
-		C7CB288D0FAC9C0DB2F80C123F635B1B /* EXMediaLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXMediaLibrary-dummy.m"; sourceTree = "<group>"; };
-		E11F5895A7B6F1BF26A30587C3F821BF /* EXMediaLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EXMediaLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8A01ECFA5A38452F5C0D47A3D016618A /* EXMediaLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EXMediaLibrary.debug.xcconfig; sourceTree = "<group>"; };
+		A6C4B4045BC81E86ED36AABDAA86AEF5 /* EXMediaLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EXMediaLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFDD3C9765A20687850D96ACE371115F /* EXMediaLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXMediaLibrary-prefix.pch"; sourceTree = "<group>"; };
+		D96ED7BAB484027D706741D74C6D578E /* EXMediaLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EXMediaLibrary.release.xcconfig; sourceTree = "<group>"; };
+		EEB9449BD2D8B06E21017F5D89BD5F5A /* EXMediaLibrary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXMediaLibrary.m; path = EXMediaLibrary/EXMediaLibrary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,22 +53,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2FAA8650BDF453076F650E7DF3EB5A9C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E11F5895A7B6F1BF26A30587C3F821BF /* EXMediaLibrary.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		342C3AF2941FE9BA65E4F03B2F868DB4 = {
 			isa = PBXGroup;
 			children = (
 				78905F9CD2C5B155FAFD2E861736E16C /* Dependencies */,
-				C254946DA3593FEDD130AE85F4D1F522 /* EXMediaLibrary */,
+				5EEBB353F437A28F80A50983B8B69F89 /* EXMediaLibrary */,
 				C6267BB1A1D34C9298E723AF4A17C8BA /* Frameworks */,
 				D449196729C4ACDE34BE7AB14541B57C /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		5EEBB353F437A28F80A50983B8B69F89 /* EXMediaLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				36BC9A58310AA50739BED4AA6DC5C175 /* EXMediaLibrary.h */,
+				EEB9449BD2D8B06E21017F5D89BD5F5A /* EXMediaLibrary.m */,
+				D6D6583D31BC34443EF2FA8411C9BAEE /* Pod */,
+				683F3191139A170A3271311491410591 /* Support Files */,
+			);
+			name = EXMediaLibrary;
+			path = "../../packages/expo-media-library/ios";
+			sourceTree = "<group>";
+		};
+		683F3191139A170A3271311491410591 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				264597E632B440D6385401B635786FF8 /* EXMediaLibrary-dummy.m */,
+				AFDD3C9765A20687850D96ACE371115F /* EXMediaLibrary-prefix.pch */,
+				8A01ECFA5A38452F5C0D47A3D016618A /* EXMediaLibrary.debug.xcconfig */,
+				D96ED7BAB484027D706741D74C6D578E /* EXMediaLibrary.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../ios/Pods/Target Support Files/EXMediaLibrary";
 			sourceTree = "<group>";
 		};
 		78905F9CD2C5B155FAFD2E861736E16C /* Dependencies */ = {
@@ -77,29 +94,6 @@
 				7134E14832E2CD4F261377D667A6BD78 /* UMPermissionsInterface */,
 			);
 			name = Dependencies;
-			sourceTree = "<group>";
-		};
-		AF0E900BB2F0BF91B3A9506CCC905B64 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				61BFB1E7DFCA55274E51C5F282CC4B4C /* EXMediaLibrary.xcconfig */,
-				C7CB288D0FAC9C0DB2F80C123F635B1B /* EXMediaLibrary-dummy.m */,
-				40DF5D75CE210CF8276822E56FA16A3A /* EXMediaLibrary-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../../../ios/Pods/Target Support Files/EXMediaLibrary";
-			sourceTree = "<group>";
-		};
-		C254946DA3593FEDD130AE85F4D1F522 /* EXMediaLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				C595DED1FFD6D9446295E9BE6B465784 /* EXMediaLibrary.h */,
-				AE4F504A3CE8FD28370DA3E23142F497 /* EXMediaLibrary.m */,
-				2FAA8650BDF453076F650E7DF3EB5A9C /* Pod */,
-				AF0E900BB2F0BF91B3A9506CCC905B64 /* Support Files */,
-			);
-			name = EXMediaLibrary;
-			path = "../../packages/expo-media-library/ios";
 			sourceTree = "<group>";
 		};
 		C6267BB1A1D34C9298E723AF4A17C8BA /* Frameworks */ = {
@@ -115,6 +109,14 @@
 				7332765204ED323C9C39E11A973382FF /* libEXMediaLibrary.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D6D6583D31BC34443EF2FA8411C9BAEE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4B4045BC81E86ED36AABDAA86AEF5 /* EXMediaLibrary.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +167,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 342C3AF2941FE9BA65E4F03B2F868DB4;
 			productRefGroup = D449196729C4ACDE34BE7AB14541B57C /* Products */;
@@ -274,9 +277,33 @@
 			};
 			name = Debug;
 		};
-		1AE9BCA685C6D17346BDA6ABD9D30B17 /* Release */ = {
+		596E68471491E154857AC45EB0895881 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61BFB1E7DFCA55274E51C5F282CC4B4C /* EXMediaLibrary.xcconfig */;
+			baseConfigurationReference = 8A01ECFA5A38452F5C0D47A3D016618A /* EXMediaLibrary.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EXMediaLibrary/EXMediaLibrary-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EXMediaLibrary;
+				PRODUCT_NAME = EXMediaLibrary;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C161D67D49FF0D68C5711CE8189448F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D96ED7BAB484027D706741D74C6D578E /* EXMediaLibrary.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -298,30 +325,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		9B52E60DB53ED86FD06FC1D26ABCB026 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61BFB1E7DFCA55274E51C5F282CC4B4C /* EXMediaLibrary.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/EXMediaLibrary/EXMediaLibrary-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = EXMediaLibrary;
-				PRODUCT_NAME = EXMediaLibrary;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		9FA469A992EC764969B635ACD1B86F2C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -398,8 +401,8 @@
 		C4582BCCA3720F9B8A80503174E06CC9 /* Build configuration list for PBXNativeTarget "EXMediaLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B52E60DB53ED86FD06FC1D26ABCB026 /* Debug */,
-				1AE9BCA685C6D17346BDA6ABD9D30B17 /* Release */,
+				596E68471491E154857AC45EB0895881 /* Debug */,
+				6C161D67D49FF0D68C5711CE8189448F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

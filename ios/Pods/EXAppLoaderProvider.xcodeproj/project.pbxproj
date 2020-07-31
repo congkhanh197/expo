@@ -7,23 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19ED20FED529304EC209D69E50927B8A /* EXAppLoaderProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = D2897F0BE2E5BAADF7C725416251379F /* EXAppLoaderProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		41544B1F781B09FFC30AE06F0997B143 /* EXAppLoaderInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A667F9D2D7094F6833ACBDF502090FB /* EXAppLoaderInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B1511A1276DEFC0F99DE7C6B686E8B1B /* EXAppLoaderProvider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F882CBC6EDC3DAF134BC7BF822405B47 /* EXAppLoaderProvider-dummy.m */; };
-		D33C71357D2843D7EFC20468DE37E725 /* EXAppRecordInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2E3B918FBB1133680DC543B3C84961 /* EXAppRecordInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E9BE2621E7A42B49638E25B4AB5D0291 /* EXAppLoaderProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA9A1F234E13838084DDD7A7E91A242 /* EXAppLoaderProvider.m */; };
+		19ED20FED529304EC209D69E50927B8A /* EXAppLoaderProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = EC2F90AEAD100F83E7E37294C88EA9EE /* EXAppLoaderProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		41544B1F781B09FFC30AE06F0997B143 /* EXAppLoaderInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 00082D1207801B82B64BC79F513F99D4 /* EXAppLoaderInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1511A1276DEFC0F99DE7C6B686E8B1B /* EXAppLoaderProvider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F53D91DD9476838922FCD4F0E1F4A8 /* EXAppLoaderProvider-dummy.m */; };
+		D33C71357D2843D7EFC20468DE37E725 /* EXAppRecordInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B23783C1E80006A6EDF2688F056B609 /* EXAppRecordInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E9BE2621E7A42B49638E25B4AB5D0291 /* EXAppLoaderProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4F315DD6A1DABA139DC669B691C526 /* EXAppLoaderProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0987B2773A56BD46694B9C981184CCB6 /* EXAppLoaderProvider.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EXAppLoaderProvider.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		00082D1207801B82B64BC79F513F99D4 /* EXAppLoaderInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXAppLoaderInterface.h; sourceTree = "<group>"; };
 		0EE7A3FB3B447931A3E4079B1CD8ECB9 /* libEXAppLoaderProvider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEXAppLoaderProvider.a; path = libEXAppLoaderProvider.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B2E3B918FBB1133680DC543B3C84961 /* EXAppRecordInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXAppRecordInterface.h; sourceTree = "<group>"; };
-		3570084CAF43DB3FAAD85A6FE5B58BE5 /* EXAppLoaderProvider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EXAppLoaderProvider.xcconfig; sourceTree = "<group>"; };
-		5A667F9D2D7094F6833ACBDF502090FB /* EXAppLoaderInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXAppLoaderInterface.h; sourceTree = "<group>"; };
-		74D7FE57A7B602796D5F37F590299638 /* EXAppLoaderProvider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXAppLoaderProvider-prefix.pch"; sourceTree = "<group>"; };
-		9DA9A1F234E13838084DDD7A7E91A242 /* EXAppLoaderProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXAppLoaderProvider.m; path = EXAppLoaderProvider/EXAppLoaderProvider.m; sourceTree = "<group>"; };
-		D2897F0BE2E5BAADF7C725416251379F /* EXAppLoaderProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXAppLoaderProvider.h; path = EXAppLoaderProvider/EXAppLoaderProvider.h; sourceTree = "<group>"; };
-		F882CBC6EDC3DAF134BC7BF822405B47 /* EXAppLoaderProvider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXAppLoaderProvider-dummy.m"; sourceTree = "<group>"; };
+		17EC92048E7B2B58D09F6392FDE5486C /* EXAppLoaderProvider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EXAppLoaderProvider.release.xcconfig; sourceTree = "<group>"; };
+		4492631D6FD161AA8E61ECFF1D734393 /* EXAppLoaderProvider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EXAppLoaderProvider.debug.xcconfig; sourceTree = "<group>"; };
+		45F336FE829897B70E54307B4CBE70A5 /* EXAppLoaderProvider.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EXAppLoaderProvider.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4B23783C1E80006A6EDF2688F056B609 /* EXAppRecordInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXAppRecordInterface.h; sourceTree = "<group>"; };
+		D5F53D91DD9476838922FCD4F0E1F4A8 /* EXAppLoaderProvider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXAppLoaderProvider-dummy.m"; sourceTree = "<group>"; };
+		DD4F315DD6A1DABA139DC669B691C526 /* EXAppLoaderProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXAppLoaderProvider.m; path = EXAppLoaderProvider/EXAppLoaderProvider.m; sourceTree = "<group>"; };
+		EC2F90AEAD100F83E7E37294C88EA9EE /* EXAppLoaderProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXAppLoaderProvider.h; path = EXAppLoaderProvider/EXAppLoaderProvider.h; sourceTree = "<group>"; };
+		F8FC1F19CD673007919EB48802033578 /* EXAppLoaderProvider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXAppLoaderProvider-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,25 +38,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01902B0E5A938D9333EDDB77205BC1E0 /* Interfaces */ = {
+		086368A829036C5F6A37E027909E7099 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5A667F9D2D7094F6833ACBDF502090FB /* EXAppLoaderInterface.h */,
-				1B2E3B918FBB1133680DC543B3C84961 /* EXAppRecordInterface.h */,
-			);
-			name = Interfaces;
-			path = EXAppLoaderProvider/Interfaces;
-			sourceTree = "<group>";
-		};
-		16F901D2072F029330450F1AADA69EAE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3570084CAF43DB3FAAD85A6FE5B58BE5 /* EXAppLoaderProvider.xcconfig */,
-				F882CBC6EDC3DAF134BC7BF822405B47 /* EXAppLoaderProvider-dummy.m */,
-				74D7FE57A7B602796D5F37F590299638 /* EXAppLoaderProvider-prefix.pch */,
+				D5F53D91DD9476838922FCD4F0E1F4A8 /* EXAppLoaderProvider-dummy.m */,
+				F8FC1F19CD673007919EB48802033578 /* EXAppLoaderProvider-prefix.pch */,
+				4492631D6FD161AA8E61ECFF1D734393 /* EXAppLoaderProvider.debug.xcconfig */,
+				17EC92048E7B2B58D09F6392FDE5486C /* EXAppLoaderProvider.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../../../ios/Pods/Target Support Files/EXAppLoaderProvider";
+			path = "../../../../../ios/Pods/Target Support Files/EXAppLoaderProvider";
 			sourceTree = "<group>";
 		};
 		439465069E237A05EDDA956AFD985395 /* Frameworks */ = {
@@ -65,23 +57,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5DDF6D89C5F40C97E1260C483BD9283B /* EXAppLoaderProvider */ = {
+		49F3D5C08533644BAA3DB5771E7C8DCB /* EXAppLoaderProvider */ = {
 			isa = PBXGroup;
 			children = (
-				D2897F0BE2E5BAADF7C725416251379F /* EXAppLoaderProvider.h */,
-				9DA9A1F234E13838084DDD7A7E91A242 /* EXAppLoaderProvider.m */,
-				01902B0E5A938D9333EDDB77205BC1E0 /* Interfaces */,
-				F659B21F5C3F27B887DBD8A7398E3A00 /* Pod */,
-				16F901D2072F029330450F1AADA69EAE /* Support Files */,
+				EC2F90AEAD100F83E7E37294C88EA9EE /* EXAppLoaderProvider.h */,
+				DD4F315DD6A1DABA139DC669B691C526 /* EXAppLoaderProvider.m */,
+				BFBCF10549709771EAB9F96E0EFA735F /* Interfaces */,
+				78FE9A643589C242F5B78FEAFA6117EB /* Pod */,
+				086368A829036C5F6A37E027909E7099 /* Support Files */,
 			);
 			name = EXAppLoaderProvider;
-			path = "../../packages/expo-app-loader-provider/ios";
+			path = "../../packages/react-native-unimodules/node_modules/expo-app-loader-provider/ios";
+			sourceTree = "<group>";
+		};
+		78FE9A643589C242F5B78FEAFA6117EB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				45F336FE829897B70E54307B4CBE70A5 /* EXAppLoaderProvider.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BFBCF10549709771EAB9F96E0EFA735F /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				00082D1207801B82B64BC79F513F99D4 /* EXAppLoaderInterface.h */,
+				4B23783C1E80006A6EDF2688F056B609 /* EXAppRecordInterface.h */,
+			);
+			name = Interfaces;
+			path = EXAppLoaderProvider/Interfaces;
 			sourceTree = "<group>";
 		};
 		D30BA6B1550C3CF6C8B453657583B0BA = {
 			isa = PBXGroup;
 			children = (
-				5DDF6D89C5F40C97E1260C483BD9283B /* EXAppLoaderProvider */,
+				49F3D5C08533644BAA3DB5771E7C8DCB /* EXAppLoaderProvider */,
 				439465069E237A05EDDA956AFD985395 /* Frameworks */,
 				EA3795D92B5A5D9B8093068EB1443123 /* Products */,
 			);
@@ -93,14 +103,6 @@
 				0EE7A3FB3B447931A3E4079B1CD8ECB9 /* libEXAppLoaderProvider.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F659B21F5C3F27B887DBD8A7398E3A00 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0987B2773A56BD46694B9C981184CCB6 /* EXAppLoaderProvider.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +153,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D30BA6B1550C3CF6C8B453657583B0BA;
 			productRefGroup = EA3795D92B5A5D9B8093068EB1443123 /* Products */;
@@ -175,6 +178,55 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		27A65FCD18BBD3537D16340ED56BC344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17EC92048E7B2B58D09F6392FDE5486C /* EXAppLoaderProvider.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EXAppLoaderProvider/EXAppLoaderProvider-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EXAppLoaderProvider;
+				PRODUCT_NAME = EXAppLoaderProvider;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DF16E70398FD201CD0D2E60AEAD9B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4492631D6FD161AA8E61ECFF1D734393 /* EXAppLoaderProvider.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EXAppLoaderProvider/EXAppLoaderProvider-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EXAppLoaderProvider;
+				PRODUCT_NAME = EXAppLoaderProvider;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		4C3BF39F751626A6FD2023823EA5A401 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -239,30 +291,6 @@
 			};
 			name = Debug;
 		};
-		52CAFF85C242F1FA97A1512A15261A5D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3570084CAF43DB3FAAD85A6FE5B58BE5 /* EXAppLoaderProvider.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/EXAppLoaderProvider/EXAppLoaderProvider-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = EXAppLoaderProvider;
-				PRODUCT_NAME = EXAppLoaderProvider;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		7A91D3D3F2E2A671EF110831B54CDAC3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -323,31 +351,6 @@
 			};
 			name = Release;
 		};
-		9995A56BD8E606B4BB15E030196D9C43 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3570084CAF43DB3FAAD85A6FE5B58BE5 /* EXAppLoaderProvider.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/EXAppLoaderProvider/EXAppLoaderProvider-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = EXAppLoaderProvider;
-				PRODUCT_NAME = EXAppLoaderProvider;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -363,8 +366,8 @@
 		FC54ECCE3FE9EBA1DCACADDDE52CA274 /* Build configuration list for PBXNativeTarget "EXAppLoaderProvider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52CAFF85C242F1FA97A1512A15261A5D /* Debug */,
-				9995A56BD8E606B4BB15E030196D9C43 /* Release */,
+				3DF16E70398FD201CD0D2E60AEAD9B04 /* Debug */,
+				27A65FCD18BBD3537D16340ED56BC344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

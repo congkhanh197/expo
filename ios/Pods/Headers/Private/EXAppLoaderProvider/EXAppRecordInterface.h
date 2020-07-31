@@ -1,1 +1,1 @@
-../../../../../packages/expo-app-loader-provider/ios/EXAppLoaderProvider/Interfaces/EXAppRecordInterface.h
+../../../../../packages/react-native-unimodules/node_modules/expo-app-loader-provider/ios/EXAppLoaderProvider/Interfaces/EXAppRecordInterface.h

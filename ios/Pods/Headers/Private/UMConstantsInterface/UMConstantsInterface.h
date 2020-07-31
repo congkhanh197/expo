@@ -1,1 +1,1 @@
-../../../../../packages/unimodules-constants-interface/ios/UMConstantsInterface/UMConstantsInterface.h
+../../../../../packages/react-native-unimodules/node_modules/unimodules-constants-interface/ios/UMConstantsInterface/UMConstantsInterface.h

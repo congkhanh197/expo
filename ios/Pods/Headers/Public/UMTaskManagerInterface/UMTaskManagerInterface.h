@@ -1,1 +1,1 @@
-../../../../../packages/unimodules-task-manager-interface/ios/UMTaskManagerInterface/UMTaskManagerInterface.h
+../../../../../packages/react-native-unimodules/node_modules/unimodules-task-manager-interface/ios/UMTaskManagerInterface/UMTaskManagerInterface.h

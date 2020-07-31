@@ -19,10 +19,11 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXFileReference section */
-		158431CD289014B02CD7E3AB1658EF16 /* UMFaceDetectorInterface.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UMFaceDetectorInterface.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		790F191C5754325D9E5B784DE80AF5BA /* UMFaceDetectorInterface.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMFaceDetectorInterface.xcconfig; sourceTree = "<group>"; };
-		C3A03AA8EDDB2B0D14F9ADF267D476D2 /* UMFaceDetectorManagerProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMFaceDetectorManagerProvider.h; path = UMFaceDetectorInterface/UMFaceDetectorManagerProvider.h; sourceTree = "<group>"; };
-		D069D5A49B3FB6442C32723F60FB8E63 /* UMFaceDetectorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMFaceDetectorManager.h; path = UMFaceDetectorInterface/UMFaceDetectorManager.h; sourceTree = "<group>"; };
+		03312234984F87831642C691B8B33AC7 /* UMFaceDetectorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMFaceDetectorManager.h; path = UMFaceDetectorInterface/UMFaceDetectorManager.h; sourceTree = "<group>"; };
+		3730A921A6711685FED587F5A1348390 /* UMFaceDetectorManagerProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMFaceDetectorManagerProvider.h; path = UMFaceDetectorInterface/UMFaceDetectorManagerProvider.h; sourceTree = "<group>"; };
+		441DED6A6127A4F5C2E42EB5B73AAE7C /* UMFaceDetectorInterface.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UMFaceDetectorInterface.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		521CEC40BB80127BFEC1A349F32A5A60 /* UMFaceDetectorInterface.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMFaceDetectorInterface.debug.xcconfig; sourceTree = "<group>"; };
+		FCC1BCA3891480F403BCD700FA44684D /* UMFaceDetectorInterface.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMFaceDetectorInterface.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -33,16 +34,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7367CB13884231F03BE7735529297C89 /* UMFaceDetectorInterface */ = {
+		7AEA38AC913A59C88023B5295716A691 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D069D5A49B3FB6442C32723F60FB8E63 /* UMFaceDetectorManager.h */,
-				C3A03AA8EDDB2B0D14F9ADF267D476D2 /* UMFaceDetectorManagerProvider.h */,
-				B51A06A24CDF2CEE07A8CC00C780C8CB /* Pod */,
-				8B8F6674647F9CF088C117C3BFD01838 /* Support Files */,
+				441DED6A6127A4F5C2E42EB5B73AAE7C /* UMFaceDetectorInterface.podspec */,
 			);
-			name = UMFaceDetectorInterface;
-			path = "../../packages/unimodules-face-detector-interface/ios";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7E5F16A881D6173641B09A3746A31659 /* Products */ = {
@@ -52,30 +49,35 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8B8F6674647F9CF088C117C3BFD01838 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				790F191C5754325D9E5B784DE80AF5BA /* UMFaceDetectorInterface.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../../ios/Pods/Target Support Files/UMFaceDetectorInterface";
-			sourceTree = "<group>";
-		};
 		951FFB8650A23EEC79B76863F7855018 = {
 			isa = PBXGroup;
 			children = (
 				35176EAE163ACDA6FF95A04B38EBD7DA /* Frameworks */,
 				7E5F16A881D6173641B09A3746A31659 /* Products */,
-				7367CB13884231F03BE7735529297C89 /* UMFaceDetectorInterface */,
+				955B860130847CCA8ABED02990F1E905 /* UMFaceDetectorInterface */,
 			);
 			sourceTree = "<group>";
 		};
-		B51A06A24CDF2CEE07A8CC00C780C8CB /* Pod */ = {
+		955B860130847CCA8ABED02990F1E905 /* UMFaceDetectorInterface */ = {
 			isa = PBXGroup;
 			children = (
-				158431CD289014B02CD7E3AB1658EF16 /* UMFaceDetectorInterface.podspec */,
+				03312234984F87831642C691B8B33AC7 /* UMFaceDetectorManager.h */,
+				3730A921A6711685FED587F5A1348390 /* UMFaceDetectorManagerProvider.h */,
+				7AEA38AC913A59C88023B5295716A691 /* Pod */,
+				FB462DAED326280A28A63DC2D7BEBCF6 /* Support Files */,
 			);
-			name = Pod;
+			name = UMFaceDetectorInterface;
+			path = "../../packages/react-native-unimodules/node_modules/unimodules-face-detector-interface/ios";
+			sourceTree = "<group>";
+		};
+		FB462DAED326280A28A63DC2D7BEBCF6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				521CEC40BB80127BFEC1A349F32A5A60 /* UMFaceDetectorInterface.debug.xcconfig */,
+				FCC1BCA3891480F403BCD700FA44684D /* UMFaceDetectorInterface.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../../ios/Pods/Target Support Files/UMFaceDetectorInterface";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +95,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 951FFB8650A23EEC79B76863F7855018;
 			productRefGroup = 7E5F16A881D6173641B09A3746A31659 /* Products */;
@@ -105,9 +108,23 @@
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		5B9F196F194B87A6007FE29EBA190CA7 /* Release */ = {
+		17BB5306292E32D806E237DF64FE6491 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 790F191C5754325D9E5B784DE80AF5BA /* UMFaceDetectorInterface.xcconfig */;
+			baseConfigurationReference = 521CEC40BB80127BFEC1A349F32A5A60 /* UMFaceDetectorInterface.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		708B8F831099552F643DFF84F9265271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC1BCA3891480F403BCD700FA44684D /* UMFaceDetectorInterface.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -179,20 +196,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		9E3B13B7F86C9541DE5E092EFB6952AA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 790F191C5754325D9E5B784DE80AF5BA /* UMFaceDetectorInterface.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		DAD7BD81B9C5B40EEA4FA381E998F2ED /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -273,8 +276,8 @@
 		E70A4D46B47AABE4400151CF9A995CBC /* Build configuration list for PBXAggregateTarget "UMFaceDetectorInterface" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E3B13B7F86C9541DE5E092EFB6952AA /* Debug */,
-				5B9F196F194B87A6007FE29EBA190CA7 /* Release */,
+				17BB5306292E32D806E237DF64FE6491 /* Debug */,
+				708B8F831099552F643DFF84F9265271 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

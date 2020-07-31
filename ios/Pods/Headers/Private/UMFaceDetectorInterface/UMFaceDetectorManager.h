@@ -1,1 +1,1 @@
-../../../../../packages/unimodules-face-detector-interface/ios/UMFaceDetectorInterface/UMFaceDetectorManager.h
+../../../../../packages/react-native-unimodules/node_modules/unimodules-face-detector-interface/ios/UMFaceDetectorInterface/UMFaceDetectorManager.h

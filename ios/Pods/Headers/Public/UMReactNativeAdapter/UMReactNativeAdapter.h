@@ -1,1 +1,1 @@
-../../../../../packages/@unimodules/react-native-adapter/ios/UMReactNativeAdapter/Services/UMReactNativeAdapter.h
+../../../../../packages/react-native-unimodules/node_modules/@unimodules/react-native-adapter/ios/UMReactNativeAdapter/Services/UMReactNativeAdapter.h

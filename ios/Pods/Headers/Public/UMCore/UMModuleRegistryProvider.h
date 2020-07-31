@@ -1,1 +1,1 @@
-../../../../../packages/@unimodules/core/ios/UMCore/UMModuleRegistryProvider/UMModuleRegistryProvider.h
+../../../../../packages/react-native-unimodules/node_modules/@unimodules/core/ios/UMCore/UMModuleRegistryProvider/UMModuleRegistryProvider.h

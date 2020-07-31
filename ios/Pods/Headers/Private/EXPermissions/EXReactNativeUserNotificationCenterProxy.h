@@ -1,1 +1,1 @@
-../../../../../packages/expo-permissions/ios/EXPermissions/EXReactNativeUserNotificationCenterProxy.h
+../../../../../packages/react-native-unimodules/node_modules/expo-permissions/ios/EXPermissions/EXReactNativeUserNotificationCenterProxy.h

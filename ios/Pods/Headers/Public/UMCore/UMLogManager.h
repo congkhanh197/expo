@@ -1,1 +1,1 @@
-../../../../../packages/@unimodules/core/ios/UMCore/Services/UMLogManager.h
+../../../../../packages/react-native-unimodules/node_modules/@unimodules/core/ios/UMCore/Services/UMLogManager.h

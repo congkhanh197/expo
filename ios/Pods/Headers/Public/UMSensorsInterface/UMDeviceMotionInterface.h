@@ -1,1 +1,1 @@
-../../../../../packages/unimodules-sensors-interface/ios/UMSensorsInterface/UMDeviceMotionInterface.h
+../../../../../packages/react-native-unimodules/node_modules/unimodules-sensors-interface/ios/UMSensorsInterface/UMDeviceMotionInterface.h

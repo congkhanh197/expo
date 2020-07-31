@@ -19,47 +19,57 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXFileReference section */
-		114724F6FC213287C1EDE4B89F0194DD /* UMMagnetometerUncalibratedInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMMagnetometerUncalibratedInterface.h; path = UMSensorsInterface/UMMagnetometerUncalibratedInterface.h; sourceTree = "<group>"; };
-		49022B2D448D3D66F7DC6766CBB0B9D1 /* UMSensorsInterface.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMSensorsInterface.xcconfig; sourceTree = "<group>"; };
-		4EE8040CD59BD8CC2C32E753F63DB5BA /* UMDeviceMotionInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMDeviceMotionInterface.h; path = UMSensorsInterface/UMDeviceMotionInterface.h; sourceTree = "<group>"; };
-		640698A269BDFC4F7689BB6D5DA48BFB /* UMMagnetometerInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMMagnetometerInterface.h; path = UMSensorsInterface/UMMagnetometerInterface.h; sourceTree = "<group>"; };
-		7C1A226DAF5CA5113D71FD831AC4327A /* UMAccelerometerInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMAccelerometerInterface.h; path = UMSensorsInterface/UMAccelerometerInterface.h; sourceTree = "<group>"; };
-		D41BC7E536D65040AC3A66F12A5061D1 /* UMBarometerInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMBarometerInterface.h; path = UMSensorsInterface/UMBarometerInterface.h; sourceTree = "<group>"; };
-		D78C041191869F71B436DF652F43754B /* UMSensorsInterface.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UMSensorsInterface.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E536BF41EA92F07F05D9CF4094400F79 /* UMGyroscopeInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMGyroscopeInterface.h; path = UMSensorsInterface/UMGyroscopeInterface.h; sourceTree = "<group>"; };
+		2DD9B53347F1D902F72E61464C9DCC7A /* UMMagnetometerInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMMagnetometerInterface.h; path = UMSensorsInterface/UMMagnetometerInterface.h; sourceTree = "<group>"; };
+		4C19F50A04BEC30FB9E4C1A7B8755049 /* UMBarometerInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMBarometerInterface.h; path = UMSensorsInterface/UMBarometerInterface.h; sourceTree = "<group>"; };
+		60005DED85404E0C97BA4A5817C69370 /* UMSensorsInterface.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMSensorsInterface.debug.xcconfig; sourceTree = "<group>"; };
+		65910A6EDF26E4001BE560F5665976B1 /* UMDeviceMotionInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMDeviceMotionInterface.h; path = UMSensorsInterface/UMDeviceMotionInterface.h; sourceTree = "<group>"; };
+		8E855B00D05A477FEEBBDD6087393781 /* UMGyroscopeInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMGyroscopeInterface.h; path = UMSensorsInterface/UMGyroscopeInterface.h; sourceTree = "<group>"; };
+		9B071AF52B62AD1198EE6598AD0000CE /* UMSensorsInterface.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UMSensorsInterface.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEDD8F9CB20662373FF4E4E67FDFC301 /* UMSensorsInterface.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMSensorsInterface.release.xcconfig; sourceTree = "<group>"; };
+		E7EFF4DECE8B75FD8C98EF723C28B328 /* UMMagnetometerUncalibratedInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMMagnetometerUncalibratedInterface.h; path = UMSensorsInterface/UMMagnetometerUncalibratedInterface.h; sourceTree = "<group>"; };
+		EAC9CDBC1643D3DD2C2F8FF3FCE02C40 /* UMAccelerometerInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMAccelerometerInterface.h; path = UMSensorsInterface/UMAccelerometerInterface.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		204E20D49A606BCEBF38F207F78C2B17 /* UMSensorsInterface */ = {
+			isa = PBXGroup;
+			children = (
+				EAC9CDBC1643D3DD2C2F8FF3FCE02C40 /* UMAccelerometerInterface.h */,
+				4C19F50A04BEC30FB9E4C1A7B8755049 /* UMBarometerInterface.h */,
+				65910A6EDF26E4001BE560F5665976B1 /* UMDeviceMotionInterface.h */,
+				8E855B00D05A477FEEBBDD6087393781 /* UMGyroscopeInterface.h */,
+				2DD9B53347F1D902F72E61464C9DCC7A /* UMMagnetometerInterface.h */,
+				E7EFF4DECE8B75FD8C98EF723C28B328 /* UMMagnetometerUncalibratedInterface.h */,
+				32B4E43C51AF2B61DBA97CBCB0A15E52 /* Pod */,
+				2724A02ED7F257DE2C6F374CFD0DA272 /* Support Files */,
+			);
+			name = UMSensorsInterface;
+			path = "../../packages/react-native-unimodules/node_modules/unimodules-sensors-interface/ios";
+			sourceTree = "<group>";
+		};
+		2724A02ED7F257DE2C6F374CFD0DA272 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60005DED85404E0C97BA4A5817C69370 /* UMSensorsInterface.debug.xcconfig */,
+				AEDD8F9CB20662373FF4E4E67FDFC301 /* UMSensorsInterface.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../../ios/Pods/Target Support Files/UMSensorsInterface";
+			sourceTree = "<group>";
+		};
+		32B4E43C51AF2B61DBA97CBCB0A15E52 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9B071AF52B62AD1198EE6598AD0000CE /* UMSensorsInterface.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		67871855C5D1E5DD14996EDBB0BA42CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9437DBE1AEAD3E88B270538032B3BE10 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				49022B2D448D3D66F7DC6766CBB0B9D1 /* UMSensorsInterface.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../../ios/Pods/Target Support Files/UMSensorsInterface";
-			sourceTree = "<group>";
-		};
-		ADC9DCE24F7C7F7F656FADF0A4022D7E /* UMSensorsInterface */ = {
-			isa = PBXGroup;
-			children = (
-				7C1A226DAF5CA5113D71FD831AC4327A /* UMAccelerometerInterface.h */,
-				D41BC7E536D65040AC3A66F12A5061D1 /* UMBarometerInterface.h */,
-				4EE8040CD59BD8CC2C32E753F63DB5BA /* UMDeviceMotionInterface.h */,
-				E536BF41EA92F07F05D9CF4094400F79 /* UMGyroscopeInterface.h */,
-				640698A269BDFC4F7689BB6D5DA48BFB /* UMMagnetometerInterface.h */,
-				114724F6FC213287C1EDE4B89F0194DD /* UMMagnetometerUncalibratedInterface.h */,
-				FF2201325B0499D1A40C6594E5D78A8D /* Pod */,
-				9437DBE1AEAD3E88B270538032B3BE10 /* Support Files */,
-			);
-			name = UMSensorsInterface;
-			path = "../../packages/unimodules-sensors-interface/ios";
 			sourceTree = "<group>";
 		};
 		CF64CA6104EC601590EFC64C9D2DBA28 /* Products */ = {
@@ -74,16 +84,8 @@
 			children = (
 				67871855C5D1E5DD14996EDBB0BA42CE /* Frameworks */,
 				CF64CA6104EC601590EFC64C9D2DBA28 /* Products */,
-				ADC9DCE24F7C7F7F656FADF0A4022D7E /* UMSensorsInterface */,
+				204E20D49A606BCEBF38F207F78C2B17 /* UMSensorsInterface */,
 			);
-			sourceTree = "<group>";
-		};
-		FF2201325B0499D1A40C6594E5D78A8D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				D78C041191869F71B436DF652F43754B /* UMSensorsInterface.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,6 +103,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = E7078DE2AF52178DD7F186F84DA4A087;
 			productRefGroup = CF64CA6104EC601590EFC64C9D2DBA28 /* Products */;
@@ -113,9 +116,9 @@
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		32D8E33D8A7C07EF85905D0096F44D07 /* Debug */ = {
+		23B3E24927AE394058F0F96498DAE414 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49022B2D448D3D66F7DC6766CBB0B9D1 /* UMSensorsInterface.xcconfig */;
+			baseConfigurationReference = 60005DED85404E0C97BA4A5817C69370 /* UMSensorsInterface.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -126,21 +129,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		71F7700A85F4E2E1EBE3DFA26FAB31DC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49022B2D448D3D66F7DC6766CBB0B9D1 /* UMSensorsInterface.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		7AF8070772728EDCFC04149B43C324D5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -199,6 +187,21 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B238C9E77E3CFA2EB894A64063AF0509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEDD8F9CB20662373FF4E4E67FDFC301 /* UMSensorsInterface.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -272,8 +275,8 @@
 		041F90F346145D525156A6CA751ACBDA /* Build configuration list for PBXAggregateTarget "UMSensorsInterface" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32D8E33D8A7C07EF85905D0096F44D07 /* Debug */,
-				71F7700A85F4E2E1EBE3DFA26FAB31DC /* Release */,
+				23B3E24927AE394058F0F96498DAE414 /* Debug */,
+				B238C9E77E3CFA2EB894A64063AF0509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,1 +1,1 @@
-../../../../../packages/expo-app-loader-provider/ios/EXAppLoaderProvider/EXAppLoaderProvider.h
+../../../../../packages/react-native-unimodules/node_modules/expo-app-loader-provider/ios/EXAppLoaderProvider/EXAppLoaderProvider.h

@@ -1,1 +1,1 @@
-../../../../../packages/unimodules-font-interface/ios/UMFontInterface/UMFontScalersManagerInterface.h
+../../../../../packages/react-native-unimodules/node_modules/unimodules-font-interface/ios/UMFontInterface/UMFontScalersManagerInterface.h
