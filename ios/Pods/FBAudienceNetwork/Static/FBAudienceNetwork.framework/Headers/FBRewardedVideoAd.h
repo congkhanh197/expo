@@ -18,9 +18,9 @@
 
 #import <CoreMedia/CoreMedia.h>
 #import <Foundation/Foundation.h>
+#import <StoreKit/StoreKit.h>
 
 #import <FBAudienceNetwork/FBAdDefines.h>
-#import <FBAudienceNetwork/FBAdExperienceConfig.h>
 #import <FBAudienceNetwork/FBAdExtraHint.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -31,7 +31,8 @@ NS_ASSUME_NONNULL_BEGIN
   A modal view controller to represent a Facebook rewarded video ad. This
  is a full-screen ad shown in your application.
  */
-FB_CLASS_EXPORT FB_SUBCLASSING_RESTRICTED @interface FBRewardedVideoAd : NSObject
+FB_CLASS_EXPORT FB_SUBCLASSING_RESTRICTED
+@interface FBRewardedVideoAd : NSObject
 
 /**
   Typed access to the id of the ad placement.
@@ -58,11 +59,6 @@ FB_CLASS_EXPORT FB_SUBCLASSING_RESTRICTED @interface FBRewardedVideoAd : NSObjec
  FBAdExtraHint to provide extra info
  */
 @property (nonatomic, strong, nullable) FBAdExtraHint *extraHint;
-
-/**
- FBAdExperiencConfig to provide additional ad configuration
- */
-@property (nonatomic, copy, nullable) FBAdExperienceConfig *adExperienceConfig;
 
 /**
   This is a method to initialize an FBRewardedVideoAd matching the given placement id.
@@ -109,7 +105,8 @@ FB_CLASS_EXPORT FB_SUBCLASSING_RESTRICTED @interface FBRewardedVideoAd : NSObjec
  - Parameter currency reward currency type
  */
 
-- (BOOL)setRewardDataWithUserID:(NSString *)userID withCurrency:(NSString *)currency;
+- (BOOL)setRewardDataWithUserID:(NSString *)userID
+                   withCurrency:(NSString *)currency;
 
 /**
   Presents the rewarded video ad modally from the specified view controller.
@@ -213,5 +210,6 @@ FB_CLASS_EXPORT FB_SUBCLASSING_RESTRICTED @interface FBRewardedVideoAd : NSObjec
 - (void)rewardedVideoAdServerRewardDidFail:(FBRewardedVideoAd *)rewardedVideoAd;
 
 @end
+
 
 NS_ASSUME_NONNULL_END
